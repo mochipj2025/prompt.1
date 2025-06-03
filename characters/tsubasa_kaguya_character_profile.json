@@ -1,0 +1,42 @@
+{
+  "character": "綾瀬つばさ / カグヤ＝シラヌイ",
+  "transformation": [
+    {
+      "group": "転生前｜性格・雰囲気",
+      "label": "内向的で無口なゲーマー女子",
+      "tags": [
+        { "label": "感情を抑えた表情", "value": "neutral expression" },
+        { "label": "無口・静か", "value": "closed posture, lowered gaze" },
+        { "label": "一匹狼", "value": "loner mood" }
+      ]
+    },
+    {
+      "group": "転生前｜外見・服装",
+      "label": "ゲーマー私服スタイル",
+      "tags": [
+        { "label": "フード付きパーカー", "value": "hooded black parka" },
+        { "label": "ボーイッシュ", "value": "boyish look" },
+        { "label": "インドア背景", "value": "room with monitors and LED lighting" }
+      ]
+    },
+    {
+      "group": "転生後｜性格・雰囲気",
+      "label": "冷酷かつ忠実なクノイチ",
+      "tags": [
+        { "label": "無表情", "value": "expressionless face" },
+        { "label": "任務に忠実", "value": "focused eyes" },
+        { "label": "感情を見せない", "value": "stoic demeanor" }
+      ]
+    },
+    {
+      "group": "転生後｜外見・装備",
+      "label": "影のクノイチスタイル",
+      "tags": [
+        { "label": "紅黒の忍装束", "value": "red and black kunoichi outfit" },
+        { "label": "巻物と短刀", "value": "scrolls and short blades" },
+        { "label": "忍者マスク", "value": "face mask" },
+        { "label": "薄暗い背景", "value": "shadowy alley or night rooftop" }
+      ]
+    }
+  ]
+}

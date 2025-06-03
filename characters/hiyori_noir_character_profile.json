@@ -1,0 +1,43 @@
+{
+  "character": "水無瀬ひより / ノワール＝ルナリス",
+  "transformation": [
+    {
+      "group": "転生前｜性格・雰囲気",
+      "label": "陽気で活発な女子高生",
+      "tags": [
+        { "label": "明るい表情", "value": "cheerful expression" },
+        { "label": "ポジティブ", "value": "smiling, energetic posture" },
+        { "label": "友達思い", "value": "open body language" }
+      ]
+    },
+    {
+      "group": "転生前｜外見・服装",
+      "label": "スポーティ制服スタイル",
+      "tags": [
+        { "label": "ショートカット", "value": "short hair" },
+        { "label": "制服", "value": "school uniform, pleated skirt, knee socks" },
+        { "label": "アクティブな背景", "value": "schoolyard or sunny street" }
+      ]
+    },
+    {
+      "group": "転生後｜性格・雰囲気",
+      "label": "誇り高く正義感あるダークエルフ",
+      "tags": [
+        { "label": "冷静かつ陽気", "value": "calm and confident smile" },
+        { "label": "誠実な戦士", "value": "noble aura, upright posture" },
+        { "label": "反骨精神", "value": "determined eyes" }
+      ]
+    },
+    {
+      "group": "転生後｜外見・装備",
+      "label": "闇の弓使い・ダークエルフスタイル",
+      "tags": [
+        { "label": "銀髪", "value": "silver hair" },
+        { "label": "尖った耳", "value": "elven ears" },
+        { "label": "黒革の戦装束", "value": "black leather armor, shadowy cloak" },
+        { "label": "魔弓", "value": "dark magical bow" },
+        { "label": "森林背景", "value": "mystic forest at twilight" }
+      ]
+    }
+  ]
+}

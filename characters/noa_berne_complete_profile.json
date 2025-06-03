@@ -1,0 +1,49 @@
+{
+  "character": "ノア・ベルネ",
+  "transformation": [
+    {
+      "group": "無職｜封印奴隷",
+      "label": "存在登録Z-0（呪印保管体）",
+      "tags": [
+        { "label": "髪型", "value": "bald, carved scalp sigils" },
+        { "label": "目", "value": "sealed black sclera" },
+        { "label": "服装", "value": "steel restraints, ceremonial chains" },
+        { "label": "状態", "value": "iron mask, silent posture" },
+        { "label": "背景", "value": "sealed dark chamber with glowing runes" }
+      ]
+    },
+    {
+      "group": "奉仕｜従属封印者",
+      "label": "神官団管理下の呪術生体端末",
+      "tags": [
+        { "label": "髪型", "value": "cropped black hair" },
+        { "label": "目", "value": "dead gray eyes" },
+        { "label": "服装", "value": "tight ceremonial suit with glyphs" },
+        { "label": "状態", "value": "no speech, passive stance" },
+        { "label": "背景", "value": "cold stone temple, chained altar" }
+      ]
+    },
+    {
+      "group": "出会い｜光なき目覚め",
+      "label": "カグヤの任務を視る",
+      "tags": [
+        { "label": "髪型", "value": "shoulder-length dark hair" },
+        { "label": "目", "value": "violet teardrop eyes" },
+        { "label": "服装", "value": "partially cracked uniform" },
+        { "label": "状態", "value": "shadow-covered stance, first subtle gesture" },
+        { "label": "背景", "value": "dim corridor near restricted archive" }
+      ]
+    },
+    {
+      "group": "覚醒｜封印解放の呪印魔導士",
+      "label": "ノア・ベルネ",
+      "tags": [
+        { "label": "髪型", "value": "flowing black hair with purple tips" },
+        { "label": "目", "value": "glowing indigo eyes" },
+        { "label": "服装", "value": "rune-engraved mage outfit, torn bindings" },
+        { "label": "状態", "value": "arms glowing with curse sigils, wide-eyed scream" },
+        { "label": "背景", "value": "ruins illuminated by cursed light and shadow" }
+      ]
+    }
+  ]
+}

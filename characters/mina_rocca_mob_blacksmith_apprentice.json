@@ -1,0 +1,24 @@
+{
+  "character": "ミナ・ロッカ / 見習い武器職人",
+  "transformation": [
+    {
+      "group": "モブ｜性格・雰囲気",
+      "label": "職人気質な少女",
+      "tags": [
+        { "label": "口下手", "value": "shy expression" },
+        { "label": "情熱的", "value": "focused eyes, determined look" },
+        { "label": "まじめ", "value": "concentrated posture" }
+      ]
+    },
+    {
+      "group": "モブ｜外見・装備",
+      "label": "鍛冶屋スタイル",
+      "tags": [
+        { "label": "栗色の髪", "value": "brown hair in tied bun" },
+        { "label": "作業着", "value": "blacksmith apron, leather gloves, worn-out shirt" },
+        { "label": "鍛冶屋の小物", "value": "goggles, wrench, soot marks" },
+        { "label": "背景", "value": "smoky forge workshop, glowing furnace" }
+      ]
+    }
+  ]
+}

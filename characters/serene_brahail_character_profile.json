@@ -1,0 +1,38 @@
+{
+  "character": "セリーヌ・ラファエラ / セレナ・ブラハイル",
+  "transformation": [
+    {
+      "group": "表｜正義の聖騎士",
+      "label": "暁の聖剣騎士団の副団長",
+      "tags": [
+        { "label": "金髪ポニーテール", "value": "blonde ponytail" },
+        { "label": "白銀の聖騎士鎧", "value": "white armor with gold trim" },
+        { "label": "蒼いマント", "value": "flowing blue cape" },
+        { "label": "光の表情", "value": "pure smile, bright eyes" },
+        { "label": "神聖な背景", "value": "sunlit cathedral courtyard" }
+      ]
+    },
+    {
+      "group": "中間｜心の崩壊",
+      "label": "教会への疑念と葛藤",
+      "tags": [
+        { "label": "破れたマント", "value": "torn cape" },
+        { "label": "ひび割れた聖剣", "value": "cracked holy sword" },
+        { "label": "影に沈んだ瞳", "value": "shadowed face, conflicted eyes" },
+        { "label": "緊張した構え", "value": "tense posture, hesitant grip" },
+        { "label": "夕焼けの回廊", "value": "twilight cathedral corridor" }
+      ]
+    },
+    {
+      "group": "闇堕ち｜堕ちた解放者",
+      "label": "セレナ・ブラハイル",
+      "tags": [
+        { "label": "黒の聖騎士鎧", "value": "black plate armor with crimson glow" },
+        { "label": "折れた聖剣", "value": "broken blade with runes" },
+        { "label": "解放された鎖", "value": "chains breaking, falling apart" },
+        { "label": "怒りと誇りの瞳", "value": "golden glowing eyes, confident smirk" },
+        { "label": "堕天の光景", "value": "moonlit battlefield, rising smoke" }
+      ]
+    }
+  ]
+}

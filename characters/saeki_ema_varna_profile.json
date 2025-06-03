@@ -1,0 +1,27 @@
+{
+  "character": "冴木えま / ヴァルナ",
+  "transformation": [
+    {
+      "group": "現実世界｜ヨガインストラクター",
+      "label": "冴木えま（スポーツジムの先生）",
+      "tags": [
+        { "label": "髪型", "value": "high ponytail with loose strands" },
+        { "label": "目", "value": "bright amber eyes" },
+        { "label": "服装", "value": "tight yoga top and leggings" },
+        { "label": "特徴", "value": "very large hips, fit legs, cheerful energy" },
+        { "label": "背景", "value": "modern yoga studio with mirrors and mats" }
+      ]
+    },
+    {
+      "group": "異世界侵略後｜舞獣の誘惑者",
+      "label": "ヴァルナ（肉体崇拝のビースト支配者）",
+      "tags": [
+        { "label": "髪型", "value": "wild twin braids with ornaments" },
+        { "label": "目", "value": "glowing pink feline eyes" },
+        { "label": "服装", "value": "animal-skin dance armor, glowing tail accessory" },
+        { "label": "特徴", "value": "huge hips, seductive posture, beast aura, charm glyphs" },
+        { "label": "背景", "value": "tribal altar in moonlight jungle" }
+      ]
+    }
+  ]
+}

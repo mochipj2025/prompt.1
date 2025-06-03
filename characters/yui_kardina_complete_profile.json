@@ -1,0 +1,49 @@
+{
+  "character": "ユイ・カルディナ",
+  "transformation": [
+    {
+      "group": "無職｜収容奴隷",
+      "label": "端末素体Y-129",
+      "tags": [
+        { "label": "髪型", "value": "bald, synthetic scalp" },
+        { "label": "目", "value": "blank synthetic eyes" },
+        { "label": "服装", "value": "formless white bodysuit" },
+        { "label": "状態", "value": "expressionless face, blank eyes" },
+        { "label": "背景", "value": "metallic room with status screens" }
+      ]
+    },
+    {
+      "group": "奉仕｜戦術オペレーター",
+      "label": "政務局の人工操作員",
+      "tags": [
+        { "label": "髪型", "value": "short silvery bob" },
+        { "label": "目", "value": "scanning violet eyes" },
+        { "label": "服装", "value": "gray-blue tactical uniform" },
+        { "label": "状態", "value": "typing at holo-console, antenna device on head" },
+        { "label": "背景", "value": "clean command room with screens" }
+      ]
+    },
+    {
+      "group": "出会い｜影への憧憬",
+      "label": "カグヤの任務を目撃する",
+      "tags": [
+        { "label": "髪型", "value": "asymmetrical side-cut silver hair" },
+        { "label": "目", "value": "flickering silver eyes" },
+        { "label": "服装", "value": "training outfit, loose shirt" },
+        { "label": "状態", "value": "fist clenching, silent determination" },
+        { "label": "背景", "value": "abandoned training room, shadows flickering" }
+      ]
+    },
+    {
+      "group": "覚醒｜雷影の女侍",
+      "label": "ユイ・カルディナ",
+      "tags": [
+        { "label": "髪型", "value": "long silver ponytail, flowing in storm" },
+        { "label": "目", "value": "glowing golden eyes" },
+        { "label": "服装", "value": "samurai armor with lightning symbols" },
+        { "label": "状態", "value": "katana crackling with electricity, sharp gaze" },
+        { "label": "背景", "value": "stormy battlefield with broken mechs" }
+      ]
+    }
+  ]
+}

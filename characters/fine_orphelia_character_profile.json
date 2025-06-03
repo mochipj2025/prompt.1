@@ -1,0 +1,38 @@
+{
+  "character": "アステル・フィーリス / フィーネ・オルフェリア",
+  "transformation": [
+    {
+      "group": "表｜神界の雷巫女",
+      "label": "神界使徒会・聖なる記憶審問官",
+      "tags": [
+        { "label": "白銀の長髪", "value": "long white hair" },
+        { "label": "神聖な衣装", "value": "sacred robes with celestial patterns" },
+        { "label": "神官の表情", "value": "stoic and serene expression" },
+        { "label": "光の紋章", "value": "glowing holy glyphs" },
+        { "label": "空中神殿背景", "value": "floating temple under sunlight" }
+      ]
+    },
+    {
+      "group": "中間｜封印の綻び",
+      "label": "記憶の揺らぎと天意への反抗",
+      "tags": [
+        { "label": "ひび割れた光輪", "value": "cracked halo" },
+        { "label": "涙と怒り", "value": "tears in eyes, clenched teeth" },
+        { "label": "封印魔導書", "value": "ancient book emitting dark light" },
+        { "label": "雷の兆し", "value": "storm clouds gathering" },
+        { "label": "聖域の亀裂", "value": "holy ground breaking apart" }
+      ]
+    },
+    {
+      "group": "闇堕ち｜堕雷の審判巫女",
+      "label": "フィーネ・オルフェリア",
+      "tags": [
+        { "label": "黒雷の光輪", "value": "dark halo with electric arcs" },
+        { "label": "堕天衣", "value": "corrupted sacred robes" },
+        { "label": "浮かぶ白髪", "value": "floating white hair" },
+        { "label": "黒雷の槍", "value": "black lightning spear" },
+        { "label": "雷鳴の空", "value": "stormy sky, bolts of dark lightning" }
+      ]
+    }
+  ]
+}

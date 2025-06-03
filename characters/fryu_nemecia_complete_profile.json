@@ -1,0 +1,49 @@
+{
+  "character": "フリュー・ネメシア",
+  "transformation": [
+    {
+      "group": "無職｜収容奴隷",
+      "label": "登録番号A-47（名無しの少女）",
+      "tags": [
+        { "label": "髪型", "value": "shaved head" },
+        { "label": "目", "value": "dull gray eyes" },
+        { "label": "服装", "value": "plain gray uniform, torn edges" },
+        { "label": "状態", "value": "emotionless face, hollow eyes" },
+        { "label": "背景", "value": "concrete wall, dim institutional lighting" }
+      ]
+    },
+    {
+      "group": "奉仕｜聖歌隊奴隷",
+      "label": "正義教会の従属歌姫",
+      "tags": [
+        { "label": "髪型", "value": "short straight brown hair" },
+        { "label": "目", "value": "empty brown eyes" },
+        { "label": "服装", "value": "clean white choir robe" },
+        { "label": "状態", "value": "hands folded, downcast eyes" },
+        { "label": "背景", "value": "white marble temple, high windows" }
+      ]
+    },
+    {
+      "group": "出会い｜揺れる心",
+      "label": "リリスとの遭遇と葛藤",
+      "tags": [
+        { "label": "髪型", "value": "messy medium-length hair" },
+        { "label": "目", "value": "teary amber eyes" },
+        { "label": "服装", "value": "choir robe torn at sleeve" },
+        { "label": "状態", "value": "single tear, faint fire in eyes" },
+        { "label": "背景", "value": "cathedral shadows creeping in" }
+      ]
+    },
+    {
+      "group": "覚醒｜炎の反響歌姫",
+      "label": "フリュー・ネメシア",
+      "tags": [
+        { "label": "髪型", "value": "long wavy red hair" },
+        { "label": "目", "value": "glowing crimson eyes" },
+        { "label": "服装", "value": "black and crimson battle dress with glowing runes" },
+        { "label": "状態", "value": "mouth open in scream, fiery notes around" },
+        { "label": "背景", "value": "ruined cathedral burning in firelight" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "character": "ルチア・ヴァルメリア / ヴァルミア・ノヴァ",
+  "transformation": [
+    {
+      "group": "表｜科学と秩序の執政騎士",
+      "label": "七煌連邦・クラディア統治騎士",
+      "tags": [
+        { "label": "銀髪ショート", "value": "short silver hair" },
+        { "label": "蒸気鎧", "value": "mechanical armor with brass plating" },
+        { "label": "知的な瞳", "value": "red analytical eyes" },
+        { "label": "冷静な姿勢", "value": "composed stance, arms behind back" },
+        { "label": "都市の工房背景", "value": "steam-filled workshop cityscape" }
+      ]
+    },
+    {
+      "group": "中間｜機構のひずみ",
+      "label": "人間主義への疑念と熱の暴走",
+      "tags": [
+        { "label": "焦げた装甲", "value": "charred armor panels" },
+        { "label": "制御不能の魔力", "value": "sparking joints, overheating vents" },
+        { "label": "燃え盛る怒り", "value": "flaming background, clenched fists" },
+        { "label": "泣き笑いの表情", "value": "tearful grin" },
+        { "label": "都市の炎上", "value": "burning tower with smoke" }
+      ]
+    },
+    {
+      "group": "闇堕ち｜蒸気の狂炎乙女",
+      "label": "ヴァルミア・ノヴァ",
+      "tags": [
+        { "label": "黒鉄の機械鎧", "value": "dark mech armor with glowing magma lines" },
+        { "label": "燃える翼", "value": "steam-mechanical wings on fire" },
+        { "label": "赤熱した槍", "value": "blazing mechanical lance" },
+        { "label": "炎の髪", "value": "silver hair with fire tips" },
+        { "label": "破壊の天使", "value": "scorched battlefield, smoke rising" }
+      ]
+    }
+  ]
+}

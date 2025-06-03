@@ -1,0 +1,27 @@
+{
+  "character": "千歳りお / アルベラ",
+  "transformation": [
+    {
+      "group": "現実世界｜小柄な女医",
+      "label": "千歳りお（町の診療所の医師）",
+      "tags": [
+        { "label": "髪型", "value": "short bob-cut black hair" },
+        { "label": "目", "value": "sharp blue eyes" },
+        { "label": "服装", "value": "white coat, scrubs, stethoscope" },
+        { "label": "特徴", "value": "petite body, large hips, surgical gloves, confident stance" },
+        { "label": "背景", "value": "small clinic room with medical bed" }
+      ]
+    },
+    {
+      "group": "異世界侵略後｜毒牙の魔医",
+      "label": "アルベラ（解剖と支配の魔術医）",
+      "tags": [
+        { "label": "髪型", "value": "loose wild bob, glowing blue strands" },
+        { "label": "目", "value": "crimson surgical eyes" },
+        { "label": "服装", "value": "black latex lab suit, exposed spine design" },
+        { "label": "特徴", "value": "petite domination, huge syringes, surgical blades on fingers" },
+        { "label": "背景", "value": "dark surgical chamber with cursed equipment" }
+      ]
+    }
+  ]
+}
