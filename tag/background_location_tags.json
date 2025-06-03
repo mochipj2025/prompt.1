@@ -1,1 +1,14 @@
-
+{
+  "group": "背景ロケーション",
+  "label": "背景ロケーション",
+  "tags": [
+    { "label": "ジャングルの祭壇", "value": "tribal altar in jungle" },
+    { "label": "闇の聖堂", "value": "dark cathedral interior" },
+    { "label": "魔界の泉", "value": "demonic hot spring" },
+    { "label": "火山の遺跡", "value": "ancient volcanic ruins" },
+    { "label": "廃墟の王座", "value": "ruined throne hall" },
+    { "label": "月光の森", "value": "moonlit forest glade" },
+    { "label": "深海神殿", "value": "underwater dark temple" },
+    { "label": "地下牢の祭壇", "value": "altar in underground dungeon" }
+  ]
+}

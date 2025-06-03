@@ -1,0 +1,18 @@
+{
+  "group": "演技・表情",
+  "label": "演技・表情",
+  "tags": [
+    { "label": "微笑み", "value": "gentle smile", "nsfw": false },
+    { "label": "流し目", "value": "seductive sidelong glance", "nsfw": false },
+    { "label": "戸惑い", "value": "confused expression", "nsfw": false },
+    { "label": "泣き顔", "value": "teary-eyed", "nsfw": false },
+    { "label": "恍惚", "value": "ecstatic expression", "nsfw": true },
+    { "label": "羞恥", "value": "blushing with embarrassment", "nsfw": true },
+    { "label": "絶頂顔", "value": "ahegao", "nsfw": true },
+    { "label": "苦悶", "value": "anguished face", "nsfw": true },
+    { "label": "目を閉じて口を開く", "value": "eyes closed, mouth open", "nsfw": true },
+    { "label": "舌を出す", "value": "tongue out", "nsfw": true },
+    { "label": "涎を垂らす", "value": "drooling", "nsfw": true },
+    { "label": "無表情", "value": "blank expression", "nsfw": false }
+  ]
+}

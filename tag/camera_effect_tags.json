@@ -1,0 +1,16 @@
+{
+  "group": "カメラ効果",
+  "label": "カメラ効果",
+  "tags": [
+    { "label": "被写界深度（背景ぼかし）", "value": "depth of field", "nsfw": false },
+    { "label": "前ボケ", "value": "foreground blur", "nsfw": false },
+    { "label": "レンズフレア", "value": "lens flare", "nsfw": false },
+    { "label": "ソフトフィルター", "value": "soft filter", "nsfw": false },
+    { "label": "光がにじむ", "value": "bloom lighting", "nsfw": false },
+    { "label": "ピントを外す", "value": "defocused", "nsfw": false },
+    { "label": "クロースアップ", "value": "close-up focus", "nsfw": false },
+    { "label": "周辺光量落ち", "value": "vignette effect", "nsfw": false },
+    { "label": "光の玉ボケ", "value": "bokeh light orbs", "nsfw": false },
+    { "label": "一部だけにピント", "value": "selective focus", "nsfw": false }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "group": "エフェクト",
+  "label": "エフェクト",
+  "tags": [
+    { "label": "魔法の光環", "value": "glowing magic circle" },
+    { "label": "空中に浮かぶ呪文", "value": "floating runes in air" },
+    { "label": "瞳に魔法の紋章", "value": "magic sigil in eyes" },
+    { "label": "髪が揺れる魔力", "value": "hair flowing with magic" },
+    { "label": "黒い羽が舞う", "value": "falling black feathers" },
+    { "label": "炎のような気流", "value": "flame-like aura" },
+    { "label": "キラキラした粒子", "value": "sparkling particles" },
+    { "label": "触手の影", "value": "shadowy tentacles" },
+    { "label": "快楽の波紋", "value": "rippling pleasure aura" },
+    { "label": "呪われた煙", "value": "cursed black smoke" }
+  ]
+}

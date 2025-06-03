@@ -1,0 +1,16 @@
+{
+  "group": "アングル（構図）",
+  "label": "アングル（構図）",
+  "tags": [
+    { "label": "正面", "value": "front view", "nsfw": false },
+    { "label": "横向き", "value": "side view", "nsfw": false },
+    { "label": "俯瞰", "value": "top-down view", "nsfw": false },
+    { "label": "ローアングル（下から）", "value": "low angle view", "nsfw": true },
+    { "label": "お尻ローアングル", "value": "low angle view of butt", "nsfw": true },
+    { "label": "胸アップ", "value": "close-up on breasts", "nsfw": true },
+    { "label": "股間アップ", "value": "close-up on crotch", "nsfw": true },
+    { "label": "顔アップ", "value": "close-up on face", "nsfw": false },
+    { "label": "脚の隙間から", "value": "between the thighs view", "nsfw": true },
+    { "label": "振り返り構図", "value": "looking back over shoulder", "nsfw": true }
+  ]
+}

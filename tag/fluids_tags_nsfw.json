@@ -1,0 +1,16 @@
+{
+  "group": "体液・状態変化",
+  "label": "体液・状態変化",
+  "tags": [
+    { "label": "汗で濡れた肌", "value": "sweaty skin", "nsfw": true },
+    { "label": "涎を垂らす", "value": "drooling", "nsfw": true },
+    { "label": "涙を浮かべる", "value": "teary eyes", "nsfw": false },
+    { "label": "愛液", "value": "wet between legs", "nsfw": true },
+    { "label": "精液が付着", "value": "cum on body", "nsfw": true },
+    { "label": "口内に精液", "value": "cum in mouth", "nsfw": true },
+    { "label": "アヘ顔＋涎＋涙", "value": "ahegao with drool and tears", "nsfw": true },
+    { "label": "下腹部の汗", "value": "sweaty lower abdomen", "nsfw": true },
+    { "label": "乳首に液体", "value": "fluid on nipples", "nsfw": true },
+    { "label": "体液まみれ", "value": "covered in fluids", "nsfw": true }
+  ]
+}

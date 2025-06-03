@@ -1,0 +1,20 @@
+{
+  "group": "ポーズ・アングル",
+  "label": "ポーズ・アングル",
+  "tags": [
+    { "label": "後ろ姿（背面構図）", "value": "from behind, back view", "nsfw": true },
+    { "label": "肩越し視線", "value": "looking over shoulder", "nsfw": false },
+    { "label": "寝転びポーズ", "value": "lying on side, seductive pose", "nsfw": true },
+    { "label": "脚を組んで座る", "value": "sitting with legs crossed", "nsfw": false },
+    { "label": "四つん這い", "value": "on all fours", "nsfw": true },
+    { "label": "壁にもたれる", "value": "leaning against wall", "nsfw": false },
+    { "label": "立ち姿", "value": "standing pose", "nsfw": false },
+    { "label": "後ろから覗く", "value": "over-the-shoulder view from behind", "nsfw": true },
+    { "label": "お尻を突き出す", "value": "butt raised, presenting pose", "nsfw": true },
+    { "label": "M字開脚", "value": "legs spread M-shape, frontal view", "nsfw": true },
+    { "label": "腰を振る", "value": "hips swinging side to side", "nsfw": true },
+    { "label": "胸を張る", "value": "chest out, confident stance", "nsfw": false },
+    { "label": "しゃがむ", "value": "squatting pose", "nsfw": false },
+    { "label": "しゃがんで後ろを向く", "value": "squatting while turning back", "nsfw": true }
+  ]
+}
