@@ -1,0 +1,43 @@
+{
+  "character": "白石ことは / リリス＝ヴェルティア",
+  "transformation": [
+    {
+      "group": "転生前｜性格・雰囲気",
+      "label": "清楚・静かな女子高生",
+      "tags": [
+        { "label": "控えめ", "value": "modest expression" },
+        { "label": "礼儀正しい", "value": "graceful posture" },
+        { "label": "読書好き", "value": "holding a book" }
+      ]
+    },
+    {
+      "group": "転生前｜外見・服装",
+      "label": "高校生スタイル",
+      "tags": [
+        { "label": "黒髪ロング", "value": "long straight black hair" },
+        { "label": "清楚なワンピース", "value": "white one-piece dress, pink cardigan" },
+        { "label": "日常の背景", "value": "park background, natural lighting" }
+      ]
+    },
+    {
+      "group": "転生後｜性格・雰囲気",
+      "label": "妖艶・冷静なサキュバス",
+      "tags": [
+        { "label": "誘惑的", "value": "seductive expression" },
+        { "label": "知的", "value": "sharp eyes" },
+        { "label": "冷静", "value": "composed demeanor" }
+      ]
+    },
+    {
+      "group": "転生後｜外見・装備",
+      "label": "サキュバスバトルスタイル",
+      "tags": [
+        { "label": "黒髪・赤目", "value": "long black hair, red eyes" },
+        { "label": "角", "value": "small curved horns" },
+        { "label": "サキュバスの羽", "value": "large bat-like wings, leathery texture, slightly torn edges" },
+        { "label": "ボディスーツ", "value": "black leotard, mesh cape" },
+        { "label": "戦闘背景", "value": "gothic ruins, moonlight" }
+      ]
+    }
+  ]
+}
