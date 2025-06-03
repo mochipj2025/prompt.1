@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>Nova Anime XL プロンプトメーカー</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Nova Anime XL プロンプトメーカー</h1>
+    <div class="subdesc">2D・2.5D選択／タグ＋LoRA＋ネガティブ 全部一括出力</div>
+  </header>
+  <main>
+    <!-- モード切替 -->
+    <div class="card">
+      <div class="mode-switch-row">
+        <button id="mode-2d" class="mode-btn selected">2D</button>
+        <button id="mode-2_5d" class="mode-btn">2.5D</button>
+      </div>
+    </div>
+
+    <!-- アコーディオンカテゴリ一覧 -->
+    <div class="card">
+      <div class="category-accordion" id="accordion-container"></div>
+    </div>
+
+    <!-- LoRAチェックボックス -->
+    <div class="card">
+      <div class="cat-label" style="margin-bottom:0.5em;">LoRA選択：</div>
+      <div class="lora-checkbox-row" id="lora-checkbox-row"></div>
+    </div>
+
+    <!-- プリセット -->
+    <div class="card">
+      <div class="preset-row">
+        <input type="text" id="preset-name" placeholder="プリセット名">
+        <button class="preset-btn" onclick="savePreset()">保存</button>
+        <button class="preset-btn" onclick="loadPreset()">読込</button>
+      </div>
+    </div>
+
+    <!-- 出力欄（縦並び） -->
+    <div class="output-section">
+      <div class="output-col">
+        <div class="output-label">Positive</div>
+        <textarea id="positive-output" class="output-txt" readonly></textarea>
+        <button class="output-btn" onclick="copyPositive()">コピ</button>
+      </div>
+      <div class="output-col">
+        <div class="output-label">Negative</div>
+        <textarea id="negative-output" class="output-txt" readonly></textarea>
+        <button class="output-btn" onclick="copyNegative()">コピ</button>
+      </div>
+      <div class="output-col">
+        <div class="output-label">合成プロンプト</div>
+        <textarea id="all-output" class="output-txt" readonly></textarea>
+        <button class="output-btn" onclick="copyAllPrompt()">全コピ</button>
+      </div>
+    </div>
+
+    <!-- 全リセット -->
+    <div class="reset-row">
+      <button class="reset-btn" onclick="resetAll()">全リセット</button>
+    </div>
+  </main>
+  <footer>
+    <small>© Nova Anime XL Prompt Maker. 利用は自己責任／非公式ツール</small>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,282 @@
+:root {
+  --brand-main: #e09736;
+  --brand-sub:  #ffb95e;
+  --brand-accent: #fa5959;
+  --bg: #fcf8f2;
+  --card-bg: #fffdfa;
+  --card-shadow: 0 4px 32px #ecdac266, 0 1.5px 10px #f8dbb1cc;
+  --border: #ffe2be;
+  --output-bg: #fff5e2;
+  --output-border: #e09736;
+  --radius: 16px;
+  --heading: 'Segoe UI', 'Meiryo', 'Hiragino Sans', sans-serif;
+}
+body {
+  background: var(--bg);
+  font-family: var(--heading);
+  color: #3c2a0d;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+header {
+  text-align: center;
+  padding: 2.5em 0 1em 0;
+}
+h1 {
+  font-size: 2.35em;
+  font-weight: 900;
+  letter-spacing: .06em;
+  color: var(--brand-main);
+  margin-bottom: .2em;
+}
+.subdesc {
+  color: #836e41;
+  font-size: 1.13em;
+  margin-bottom: .6em;
+}
+main {
+  max-width: 650px;
+  margin: auto;
+  padding: 0 1.5em 2.5em 1.5em;
+  display: flex;
+  flex-direction: column;
+  gap: 2.3em;
+}
+/* ---- カード ---- */
+.card {
+  background: var(--card-bg);
+  border-radius: var(--radius);
+  box-shadow: var(--card-shadow);
+  padding: 1.4em 2em 1.4em 2em;
+  margin-bottom: 0.7em;
+  border: 1.8px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  gap: 1.1em;
+  align-items: flex-start;
+}
+
+/* ---- アコーディオンカテゴリ ---- */
+.category-accordion {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: .9em;
+}
+.cat-acc {
+  border-radius: 11px;
+  box-shadow: 0 2px 9px #ecdac233;
+  margin-bottom: .2em;
+  background: #fffefa;
+  border: 1.5px solid #ffe3c7;
+  overflow: hidden;
+}
+.cat-header {
+  font-size: 1.13em;
+  font-weight: 700;
+  color: var(--brand-main);
+  padding: .8em 1.5em;
+  cursor: pointer;
+  user-select: none;
+  background: linear-gradient(90deg, #fff2d4 80%, #ffe8bc 100%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cat-header .acc-arrow {
+  font-size: 1.5em;
+  transition: transform .19s;
+  margin-left: 0.6em;
+}
+.cat-header.open .acc-arrow {
+  transform: rotate(90deg);
+}
+.cat-content {
+  padding: .9em 1.7em .8em 1.7em;
+  display: none;
+  animation: fadeInAcc .22s;
+}
+.cat-content.open { display: block; }
+@keyframes fadeInAcc {
+  from { opacity: 0; transform: translateY(-8px);}
+  to { opacity: 1; transform: none;}
+}
+.cat-content label {
+  display: inline-block;
+  margin: .25em 1.1em .25em 0;
+  background: #ffe7bdc0;
+  padding: .16em .75em;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 1.2px solid #ffe1b3;
+  transition: background .12s;
+  font-size: 1em;
+}
+.cat-content input[type="checkbox"]:checked + label {
+  background: var(--brand-sub);
+  color: #fff;
+  border: 1.2px solid var(--brand-main);
+}
+
+/* ---- LoRAチェックボックス ---- */
+.lora-checkbox-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .7em 1.3em;
+  align-items: center;
+  width: 100%;
+}
+.lora-checkbox-row label {
+  display: flex;
+  align-items: center;
+  background: #ffe7bdc0;
+  border-radius: 8px;
+  border: 1.2px solid #ffe1b3;
+  padding: .16em .9em .16em .7em;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 500;
+  transition: background .12s;
+  min-width: 0;
+}
+.lora-checkbox-row input[type="checkbox"] {
+  margin-right: .48em;
+  accent-color: var(--brand-main);
+}
+.lora-checkbox-row input[type="checkbox"]:checked + span {
+  font-weight: bold;
+  color: var(--brand-main);
+}
+
+/* ---- モード切替 ---- */
+.mode-switch-row {
+  display: flex;
+  justify-content: center;
+  gap: 1.3em;
+  margin-bottom: .7em;
+}
+.mode-btn {
+  font-size: 1.12em;
+  padding: .45em 2.1em;
+  font-weight: bold;
+  background: var(--brand-sub);
+  color: #fff;
+  border: none;
+  border-radius: 11px;
+  box-shadow: 0 2px 9px #fae3b680;
+  cursor: pointer;
+  transition: background .15s, color .15s;
+}
+.mode-btn.selected,
+.mode-btn:hover {
+  background: var(--brand-main);
+  color: #fff;
+}
+/* ---- プリセット ---- */
+.preset-row {
+  display: flex;
+  gap: .7em;
+  align-items: center;
+}
+.preset-row input[type="text"] {
+  border-radius: 6px;
+  border: 1px solid #ffb95e;
+  padding: .36em .7em;
+  min-width: 120px;
+}
+.preset-btn {
+  background: #ddd;
+  color: #222;
+  border-radius: 6px;
+  border: none;
+  padding: .36em 1.2em;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background .14s;
+}
+.preset-btn:hover { background: var(--brand-sub); color: #fff; }
+/* ---- 出力欄（縦並び！） ---- */
+.output-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1.3em;
+  margin-top: 0.2em;
+}
+.output-col {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: .4em;
+  background: var(--output-bg);
+  border: 2px solid var(--output-border);
+  border-radius: 12px;
+  box-shadow: 0 2px 12px #e8c68b48;
+  padding: 1.2em 1em .7em 1em;
+  min-width: 0;
+  min-height: 110px;
+  align-items: stretch;
+  position: relative;
+  margin-bottom: .7em;
+}
+.output-label {
+  color: var(--brand-main);
+  font-size: 1.12em;
+  font-weight: bold;
+  margin-bottom: .6em;
+}
+.output-txt {
+  width: 100%;
+  min-height: 68px;
+  resize: vertical;
+  font-size: 1em;
+  background: none;
+  border: none;
+  color: #402f12;
+  margin-bottom: .2em;
+  outline: none;
+}
+.output-btn {
+  background: var(--brand-main);
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+  padding: .3em 1.1em;
+  font-weight: 600;
+  cursor: pointer;
+  align-self: flex-end;
+  margin-top: .2em;
+  box-shadow: 0 1px 4px #e0973680;
+  transition: background .17s;
+}
+.output-btn:hover { background: var(--brand-accent); }
+/* ---- 全リセット ---- */
+.reset-row {
+  text-align: center;
+  margin: 1.8em 0 0 0;
+}
+.reset-btn {
+  background: var(--brand-accent);
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  padding: .55em 2.7em;
+  font-size: 1.12em;
+  box-shadow: 0 1px 7px #e0973699;
+  cursor: pointer;
+  transition: background .14s;
+}
+.reset-btn:hover { background: #f24a4a; }
+/* ---- フッター ---- */
+footer {
+  text-align: center;
+  font-size: .97em;
+  color: #9a8761;
+  padding: 2em 0 .7em 0;
+  letter-spacing: .03em;
+}
+@media (max-width: 750px) {
+  main { max-width: 99vw; padding: 0 .4em 1.5em .4em; }
+  .card { padding: 1.1em .8em 1.2em .8em; }
+}
